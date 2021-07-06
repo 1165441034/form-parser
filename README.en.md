@@ -1,36 +1,36 @@
 # Form-Parser
 
 #### Description
-Form Generator JSON格式重写前的自定义表单回显组件
+Form Generator The custom form echo component before the JSON format rewrite, and the adapted JSON format is also the frame data before the update
 
 #### Software Architecture
-Software architecture description
+Main components Parser  Preview.htmlIt's soy sauce
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  Import as a component in VUE
+2. Use directly in the file
+
+   
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. The component needs to pass two required values:
 
-#### Contribution
+   ```
+   * formConf: {
+   *          type: Object,
+   *          required: true
+   *       },
+   * drawingList: {
+   *          type: Array,
+   *           required: true
+   *      }
+   ```
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+   The data header submitted by the component can be controlled in the custom form design page.
 
+   The submission event is a custom event @submit
 
-#### Gitee Feature
+   Table data echoes and single row data echoes to the custom form components when editing rows are here
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
